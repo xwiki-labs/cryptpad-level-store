@@ -1,0 +1,23 @@
+{
+  "name": "cryptpad-level-store",
+  "version": "1.0.0",
+  "description": "storage api for cryptpad implemented using leveldb",
+  "main": "lvl.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xwiki-labs/cryptpad-level-store.git"
+  },
+  "keywords": [
+    "leveldb",
+    "cryptpad"
+  ],
+  "author": "ansuz",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/xwiki-labs/cryptpad-level-store/issues"
+  },
+  "homepage": "https://github.com/xwiki-labs/cryptpad-level-store#readme"
+}
