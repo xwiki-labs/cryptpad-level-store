@@ -1,6 +1,6 @@
 {
   "name": "cryptpad-level-store",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "storage api for cryptpad implemented using leveldb",
   "main": "lvl.js",
   "scripts": {
@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/xwiki-labs/cryptpad-level-store/issues"
   },
-  "homepage": "https://github.com/xwiki-labs/cryptpad-level-store#readme"
+  "homepage": "https://github.com/xwiki-labs/cryptpad-level-store#readme",
+  "dependencies": {
+    "level": "^1.4.0",
+    "nthen": "^0.1.1"
+  }
 }

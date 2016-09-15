@@ -29,7 +29,9 @@ var insert = function (db, channelName, content, cb) {
             db.locked = false;
             if (!db.queue.length) { return; }
             db.queue.shift()();
-        }).nThen(cb);
+        }).nThen(function (waitFor) {
+            cb();
+        });
     };
     if (db.locked) {
         db.queue.push(doIt);
